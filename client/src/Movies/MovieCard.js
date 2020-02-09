@@ -18,6 +18,9 @@ const MovieCard = props => {
           {star}
         </div>
       ))}
+      <button className="edit-button" onClick={() => alert("Clicked")}>
+        Edit
+      </button>
     </div>
   );
 };
